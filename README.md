@@ -55,3 +55,6 @@ Using this single page app, you can test out the ability to send, update, and ca
 
 If you would like to see what is being sent to the email transporter, uncomment the `//console.log(newMailMsg)` line in the outlook.js file.
 
+#### Client application
+
+The client application is built using the Vue JavaScript Framework.  If you modify the client, you will need to re-run the build process, which will place the outfiles in the `/server/public` folder.  For more information on using Vue for web development, please visit https://vuejs.org/ 
